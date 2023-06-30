@@ -1,3 +1,5 @@
+# 아두이노 기본 설명
+
 ![image](https://github.com/morningB/arduino_python/assets/114423035/8f712227-d69f-4963-b256-a0ddb0dc5f09)
 
 
