@@ -13,5 +13,5 @@ void loop() {
   }
   brightness = brightness + increment;
   analogWrite(ledPin, brightness);
-  delay(50);
+  delay(1);
 }

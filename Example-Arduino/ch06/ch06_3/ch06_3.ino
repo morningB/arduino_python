@@ -1,17 +1,20 @@
-int buttonPin = 11;
 int ledPin = 13;
 
 void setup() {
-  pinMode(buttonPin, INPUT);
   pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
-  int buttonState = digitalRead(buttonPin);
-  if (buttonState == HIGH) {
-    digitalWrite(ledPin, HIGH);
-  } else {
-    digitalWrite(ledPin, LOW);
+  if (Serial.available() > 0) {
+    char command = Serial.read();
+    
+    if (command == '1') {
+      digitalWrite(ledPin, HIGH);
+      Serial.println("LED ON");
+    } else if (command == '0') {
+      digitalWrite(ledPin, LOW);
+      Serial.println("LED OFF");
+    }
   }
-  delay(10);
 }

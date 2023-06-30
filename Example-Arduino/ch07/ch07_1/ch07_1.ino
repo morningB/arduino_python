@@ -11,5 +11,5 @@ void loop() {
   } else {
     Serial.println("not tilt!");
   }
-  delay(10);
+  delay(1000);
 }
