@@ -34,3 +34,11 @@
 3. LCD와 RGB LED 고정하기
 ![image](https://github.com/morningB/arduino_python/assets/114423035/763c76d9-59fd-48a7-81ea-33685e4d3419)
 ![image](https://github.com/morningB/arduino_python/assets/114423035/7bedf7f0-2bc0-410f-8300-0c48720fe678)
+
+4. 나머지 회로도를 보며 점퍼선 꽂기
+
+5. 결과
+![image](https://github.com/morningB/arduino_python/assets/114423035/ca19059d-c8f2-4cb7-b6f6-e376d1c92ba8)
+6. 코드 결과
+![image](https://github.com/morningB/arduino_python/assets/114423035/0dc843e1-53d9-4040-a025-578a0fdbe73e)
+
